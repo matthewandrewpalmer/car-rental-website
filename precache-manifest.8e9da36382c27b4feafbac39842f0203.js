@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2cb3d898054987a931af905be543d0b4",
+    "revision": "3d196ae493eb63ebe0d5396d14975f1d",
     "url": "/car-rental-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/car-rental-website/static/css/2.d19c8617.chunk.css"
   },
   {
-    "revision": "731ddd5d3817ab87dc01",
+    "revision": "770ebaa969907581fc64",
     "url": "/car-rental-website/static/css/main.645b256b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/car-rental-website/static/js/2.51e47f2e.chunk.js"
   },
   {
-    "revision": "731ddd5d3817ab87dc01",
-    "url": "/car-rental-website/static/js/main.0a8012b5.chunk.js"
+    "revision": "770ebaa969907581fc64",
+    "url": "/car-rental-website/static/js/main.3ef9a09f.chunk.js"
   },
   {
     "revision": "3ff55d17818c82a72517",
