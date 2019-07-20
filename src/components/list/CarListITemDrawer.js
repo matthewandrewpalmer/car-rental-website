@@ -34,6 +34,8 @@ const DescriptionItem = ({ title, content }) => (
 );
 
 function CarListItemDrawer(props) {
+
+    const itemData = props.itemData;
     return (
         <Drawer
             width={640}
@@ -42,11 +44,17 @@ function CarListItemDrawer(props) {
             onClose={() => props.setDrawerVisibility(false)}
             visible={props.drawerVisibility}
         >
-            <p style={{ ...pStyle, marginBottom: 24 }}>User Profile</p>
+            <p style={{ ...pStyle, marginBottom: 24 }}>{itemData.title}</p>
+            <img
+
+                alt="example"
+                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+            />
+            <Divider />
             <p style={pStyle}>Personal</p>
             <Row>
                 <Col span={12}>
-                    <DescriptionItem title="Full Name" content={props.itemData.title} />{' '}
+                    <DescriptionItem title="Full Name" content={itemData.title} />{' '}
                 </Col>
                 <Col span={12}>
                     <DescriptionItem title="Account" content="AntDesign@example.com" />

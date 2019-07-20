@@ -10,6 +10,8 @@ function CarListItem(props) {
 
     const [drawerVisibility, setDrawerVisibility] = useState(false);
 
+    const itemData = props.itemData;
+
     return (
         <List.Item>
             <Card
@@ -20,15 +22,15 @@ function CarListItem(props) {
                         src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
                     />
                 }
-                actions={[<Icon type="setting"/>, <p onClick={() => setDrawerVisibility(true)}>More Information</p>, <Icon type="ellipsis"/>]}
+                actions={[<Icon type="setting"/>, <h5 onClick={() => setDrawerVisibility(true)}>More Information</h5>, <Icon type="ellipsis"/>]}
             >
                 <Card.Meta
-                    title={props.itemData.title}
+                    title={itemData.title}
                     description="This is the description"
                 />
             </Card>
 
-            <CarListItemDrawer itemData={props.itemData} drawerVisibility={drawerVisibility} setDrawerVisibility={setDrawerVisibility}/>
+            <CarListItemDrawer itemData={itemData} drawerVisibility={drawerVisibility} setDrawerVisibility={setDrawerVisibility}/>
 
 
         </List.Item>
