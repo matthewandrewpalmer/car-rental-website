@@ -11,6 +11,10 @@ const pStyle = {
     marginBottom: 16,
 };
 
+const drawerStyle = {
+    width: '75%',
+};
+
 const DescriptionItem = ({ title, content }) => (
     <div
         style={{
@@ -38,7 +42,7 @@ function CarListItemDrawer(props) {
     const itemData = props.itemData;
     return (
         <Drawer
-            width={640}
+            width={drawerStyle.width}
             placement="right"
             closable={false}
             onClose={() => props.setDrawerVisibility(false)}
