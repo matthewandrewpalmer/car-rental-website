@@ -1,7 +1,7 @@
 // Main React Import
-import React, {Component, useState} from 'react';
+import React, {useState} from 'react';
 // Content components Imports
-import {Avatar, Card, Col, Divider, Drawer, Icon, List, Row} from "antd";
+import {Card, Icon, List} from "antd";
 import CarListItemDrawer from "./CarListITemDrawer";
 
 

@@ -1,7 +1,7 @@
 // Main React Import
-import React, {Component, useState} from 'react';
+import React from 'react';
 // Content components Imports
-import {Avatar, Card, Col, Divider, Drawer, Icon, List, Row} from "antd";
+import {Col, Divider, Drawer, Row} from "antd";
 
 const pStyle = {
     fontSize: 16,
