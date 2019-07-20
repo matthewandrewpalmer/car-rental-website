@@ -26,7 +26,7 @@ function CarListItem(props) {
             >
                 <Card.Meta
                     title={itemData.title}
-                    description="This is the description"
+                    description={itemData.description}
                 />
             </Card>
 

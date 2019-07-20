@@ -12,33 +12,43 @@ import HeaderCarousel from "./components/HeaderCarousel";
 const listData = [
   {
     title: 'Title One',
+    description: 'This is a description for title 1'
   },
   {
     title: 'Title 2',
+    description: 'This is a description for title 2'
   },
   {
     title: 'Title 3',
+    description: 'This is a description for title 3'
   },
   {
     title: 'Title 4',
+    description: 'This is a description for title 4'
   },
   {
     title: 'Title 5',
+    description: 'This is a description for title 5'
   },
   {
     title: 'Title 6',
+    description: 'This is a description for title 6'
   },
   {
     title: 'Title 7',
+    description: 'This is a description for title 7'
   },
   {
     title: 'Title 8',
+    description: 'This is a description for title 8'
   },
   {
     title: 'Title 9',
+    description: 'This is a description for title 9'
   },
   {
     title: 'Title 10',
+    description: 'This is a description for title 10'
   },
 ];
 
