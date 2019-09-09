@@ -50,5 +50,7 @@
     "description": "This is a description for title 12"
   }
   ],
-}
+  "profile": {
+    "name": "typicode"
+  }
 }
