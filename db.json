@@ -1,56 +1,53 @@
 {
-  'cars':[
+  "cars":[
 
   {
-    'title': 'Title One',
-    'description': 'This is a description for title 1'
+    "title": "Title One",
+    "description": "This is a description for title 1"
   },
   {
-    'title': 'Title Two',
-    'description': 'This is a description for title 2'
+    "title": "Title Two",
+    "description": "This is a description for title 2"
   },
   {
-    'title': 'Title Three',
-    'description': 'This is a description for title 3'
+    "title": "Title Three",
+    "description": "This is a description for title 3"
   },
   {
-    'title': 'Title Four',
-    'description': 'This is a description for title 4'
+    "title": "Title Four",
+    "description": "This is a description for title 4"
   },
   {
-    'title': 'Title Five',
-    'description': 'This is a description for title 5'
+    "title": "Title Five",
+    "description": "This is a description for title 5"
   },
   {
-    'title': 'Title Six',
-    'description': 'This is a description for title 6'
+    "title": "Title Six",
+    "description": "This is a description for title 6"
   },
   {
-    'title': 'Title Seven',
-    'description': 'This is a description for title 7'
+    "title": "Title Seven",
+    "description": "This is a description for title 7"
   },
   {
-    'title': 'Title Eight',
-    'description': 'This is a description for title 8'
+    "title": "Title Eight",
+    "description": "This is a description for title 8"
   },
   {
-    'title': 'Title Nine',
-    'description': 'This is a description for title 9'
+    "title": "Title Nine",
+    "description": "This is a description for title 9"
   },
   {
-    'title': 'Title Ten',
-    'description': 'This is a description for title 10'
+    "title": "Title Ten",
+    "description": "This is a description for title 10"
   },
   {
-    'title': 'Title Eleven',
-    'description': 'This is a description for title 11'
+    "title": "Title Eleven",
+    "description": "This is a description for title 11"
   },
   {
-    'title': 'Title Twelve',
-    'description': 'This is a description for title 12'
+    "title": "Title Twelve",
+    "description": "This is a description for title 12"
   },
-
- 
-
-]
+  ]
 }
