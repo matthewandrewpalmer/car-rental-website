@@ -12,7 +12,7 @@ import HeaderCarousel from "./components/HeaderCarousel";
 const listData = [
   {
     title: 'Title One',
-    description: 'This is a description for title 1'
+    description: 'This is a description for title one'
   },
   {
     title: 'Title 2',
@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="App">
-      <Card title="Card Title">
+      <Card title="Car Rental Site">
 
         <HeaderCarousel/>
 
